@@ -1,0 +1,17 @@
+
+*{
+    font-family:courier new;
+}
+
+h1{
+    color: #1b74c4;
+}
+
+#searchbtn{
+    background-color: black;
+    color:white;
+}
+
+.userbtn{
+    background-color: aqua;
+}
