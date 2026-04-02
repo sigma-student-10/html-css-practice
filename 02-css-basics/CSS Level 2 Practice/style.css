@@ -1,0 +1,41 @@
+
+#heading {
+    color:rgba(65, 65, 237, 0.822);
+
+}
+
+*{
+    text-align:center;
+    font-family:Georgia;
+}
+
+p {
+    background-color: cornflowerblue;
+    color:white;
+}
+
+button  {
+    background-color: purple;
+    color:azure;
+}
+
+label {
+    color: azure;
+}
+
+button:hover {
+    background-color: yellow;
+    color:blue;
+}
+
+h1::first-letter {
+    color:red;
+}
+
+#yes:checked + label {
+    color: darkgreen;
+}
+
+p:nth-of-type(2n+1) {
+    color:yellow;
+}
