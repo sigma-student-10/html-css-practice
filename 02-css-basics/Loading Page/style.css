@@ -1,0 +1,25 @@
+.loader {
+    width: 120px;
+    height: 120px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid goldenrod;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 200px;
+    left:100px;
+    
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    text-align: center;
+}
